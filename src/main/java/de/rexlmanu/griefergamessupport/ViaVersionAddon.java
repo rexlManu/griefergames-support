@@ -28,7 +28,9 @@ public class ViaVersionAddon extends LabyModAddon {
 
   public static final String NAME = "GrieferGamesSupport";
   public static final List<String> SERVERS = Arrays.asList(
-      "griefergames.net"
+      "griefergames.net",
+      "griefergames.de",
+      "griefergames.com"
   );
 
   public static final int SHARED_VERSION = 754;
