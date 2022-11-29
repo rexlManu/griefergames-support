@@ -36,6 +36,16 @@ public class ViaVersionAddon extends LabyModAddon {
   @Getter
   private static ViaVersionAddon instance;
 
+  public static boolean checkWhitelist(String input) {
+    if(!input.contains(".")) return false;
+    String[] parts = input.split("\\.");
+    if(parts.length <= 2) {
+      return SERVERS.contains(input);
+    }
+    String domain = parts[parts.length - 2] + "." + parts[parts.length - 1];
+    return SERVERS.contains(domain);
+  }
+
   private final CompletableFuture<Void> initFuture = new CompletableFuture<>();
 
   private ExecutorService executorService;

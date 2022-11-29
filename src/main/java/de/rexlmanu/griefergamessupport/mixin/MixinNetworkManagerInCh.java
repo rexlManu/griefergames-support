@@ -25,7 +25,7 @@ public class MixinNetworkManagerInCh {
         && Minecraft.getInstance().getCurrentServerData() != null) {
       String serverIP = Minecraft.getInstance().getCurrentServerData().serverIP;
       System.out.println(serverIP);
-      if (!ViaVersionAddon.SERVERS.contains(serverIP)) {
+      if (!ViaVersionAddon.checkWhitelist(serverIP)) {
         ViaVersionAddon.getInstance().setVersion(ViaVersionAddon.SHARED_VERSION);
         return;
       }
