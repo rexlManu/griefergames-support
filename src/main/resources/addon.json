@@ -1,18 +1,11 @@
 {
-  "name": "ViaVersion",
+  "name": "GrieferGames 1.19.2 Support",
   "uuid": "%uuid%",
-  "mainClass": "de.rexlmanu.viaversionaddon.ViaVersionAddon",
-  "transformerClass": "de.rexlmanu.viaversionaddon.ViaVersionAddonTransformer",
-  "author": "_MylesC, creeper123123321, Gerrygames, KennyTV, Matsv",
-  "description": "ViaVersion implemented clientside to switch easily your protocol version between 1.8 and 1.19.",
-  "authors": [
-    "_MylesC",
-    "creeper123123321",
-    "Gerrygames",
-    "KennyTV",
-    "Matsv"
-  ],
+  "mainClass": "de.rexlmanu.griefergamessupport.ViaVersionAddon",
+  "transformerClass": "de.rexlmanu.griefergamessupport.ViaVersionAddonTransformer",
+  "author": "rexlManu",
+  "description": "Join with 1.16 on GrieferGames 1.19.2",
   "category": 3,
-  "icon": "https://avatars.githubusercontent.com/u/42077435?s=200&v=4",
+  "icon": "https://safe.manu.moe/RDwhG5wf.png",
   "version": 1.0
 }

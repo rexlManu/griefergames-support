@@ -1,6 +1,6 @@
 {
   "required": true,
-  "package": "de.rexlmanu.viaversionaddon.mixin",
+  "package": "de.rexlmanu.griefergamessupport.mixin",
   "compatibilityLevel": "JAVA_8",
   "refmap": "network.refmap.json",
   "verbose": false,

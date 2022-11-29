@@ -1,4 +1,4 @@
-package de.rexlmanu.viaversionaddon.loader;
+package de.rexlmanu.griefergamessupport.loader;
 
 import de.gerrygames.viarewind.api.ViaRewindConfigImpl;
 import de.gerrygames.viarewind.api.ViaRewindPlatform;

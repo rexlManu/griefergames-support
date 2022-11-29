@@ -1,4 +1,4 @@
-package de.rexlmanu.viaversionaddon.handler;
+package de.rexlmanu.griefergamessupport.handler;
 
 import com.viaversion.viaversion.util.PipelineUtil;
 import io.netty.buffer.ByteBuf;
@@ -12,8 +12,8 @@ import java.lang.reflect.InvocationTargetException;
 
 public class CommonTransformer {
 
-    public static final String HANDLER_DECODER_NAME = "via-decoder";
-    public static final String HANDLER_ENCODER_NAME = "via-encoder";
+    public static final String HANDLER_DECODER_NAME = "griefer-decoder";
+    public static final String HANDLER_ENCODER_NAME = "griefer-encoder";
 
     public static void decompress(ChannelHandlerContext ctx, ByteBuf buf) throws InvocationTargetException {
         ChannelHandler handler = ctx.pipeline().get("decompress");

@@ -1,8 +1,7 @@
-package de.rexlmanu.viaversionaddon.handler;
+package de.rexlmanu.griefergamessupport.handler;
 
 import com.viaversion.viaversion.api.connection.UserConnection;
 import com.viaversion.viaversion.exception.CancelCodecException;
-import com.viaversion.viaversion.exception.CancelDecoderException;
 import com.viaversion.viaversion.exception.CancelEncoderException;
 import com.viaversion.viaversion.util.PipelineUtil;
 import io.netty.buffer.ByteBuf;
@@ -10,7 +9,6 @@ import io.netty.channel.ChannelHandler;
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.handler.codec.MessageToMessageEncoder;
 
-import java.lang.reflect.InvocationTargetException;
 import java.util.List;
 
 @ChannelHandler.Sharable

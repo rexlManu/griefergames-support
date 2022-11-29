@@ -1,4 +1,4 @@
-package de.rexlmanu.viaversionaddon.handler;
+package de.rexlmanu.griefergamessupport.handler;
 
 import com.viaversion.viaversion.api.connection.UserConnection;
 import com.viaversion.viaversion.exception.CancelCodecException;

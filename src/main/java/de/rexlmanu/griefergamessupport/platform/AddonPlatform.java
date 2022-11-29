@@ -1,4 +1,4 @@
-package de.rexlmanu.viaversionaddon.platform;
+package de.rexlmanu.griefergamessupport.platform;
 
 import com.viaversion.viaversion.api.command.ViaCommandSender;
 import com.viaversion.viaversion.api.configuration.ConfigurationProvider;
@@ -8,8 +8,8 @@ import com.viaversion.viaversion.api.platform.PlatformTask;
 import com.viaversion.viaversion.api.platform.UnsupportedSoftware;
 import com.viaversion.viaversion.api.platform.ViaPlatform;
 import com.viaversion.viaversion.libs.gson.JsonObject;
-import de.rexlmanu.viaversionaddon.ViaVersionAddon;
-import de.rexlmanu.viaversionaddon.utility.FutureTaskId;
+import de.rexlmanu.griefergamessupport.ViaVersionAddon;
+import de.rexlmanu.griefergamessupport.utility.FutureTaskId;
 import io.netty.util.concurrent.Future;
 import io.netty.util.concurrent.GenericFutureListener;
 import java.util.Collection;

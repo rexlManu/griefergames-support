@@ -1,6 +1,6 @@
-package de.rexlmanu.viaversionaddon.mixin;
+package de.rexlmanu.griefergamessupport.mixin;
 
-import de.rexlmanu.viaversionaddon.handler.PipelineReorderEvent;
+import de.rexlmanu.griefergamessupport.handler.PipelineReorderEvent;
 import io.netty.channel.Channel;
 import net.minecraft.network.NetworkManager;
 import org.spongepowered.asm.mixin.Mixin;

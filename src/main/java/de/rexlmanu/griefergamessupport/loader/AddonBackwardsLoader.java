@@ -1,4 +1,4 @@
-package de.rexlmanu.viaversionaddon.loader;
+package de.rexlmanu.griefergamessupport.loader;
 
 import com.viaversion.viabackwards.api.ViaBackwardsPlatform;
 

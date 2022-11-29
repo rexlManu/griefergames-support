@@ -24,9 +24,9 @@ apply plugin: 'eclipse'
 apply plugin: 'maven-publish'
 apply plugin: 'org.spongepowered.mixin'
 
-version = '1.4'
+version = '1.0'
 group = 'de.rexlmanu' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
-archivesBaseName = 'viaversion-addon'
+archivesBaseName = 'griefergames-support'
 
 sourceCompatibility = targetCompatibility = compileJava.sourceCompatibility = compileJava.targetCompatibility = '1.8' // Need this here so eclipse task generates correctly.
 

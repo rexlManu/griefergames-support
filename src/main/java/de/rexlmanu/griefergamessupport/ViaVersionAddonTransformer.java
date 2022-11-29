@@ -1,4 +1,4 @@
-package de.rexlmanu.viaversionaddon;
+package de.rexlmanu.griefergamessupport;
 
 import net.labymod.addon.AddonTransformer;
 import net.labymod.api.TransformerType;

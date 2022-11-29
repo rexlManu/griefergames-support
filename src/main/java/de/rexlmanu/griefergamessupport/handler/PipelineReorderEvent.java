@@ -1,4 +1,4 @@
-package de.rexlmanu.viaversionaddon.handler;
+package de.rexlmanu.griefergamessupport.handler;
 
 import lombok.experimental.Accessors;
 

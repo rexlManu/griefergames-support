@@ -1,4 +1,4 @@
-package de.rexlmanu.viaversionaddon.utility;
+package de.rexlmanu.griefergamessupport.utility;
 
 import com.viaversion.viaversion.api.platform.PlatformTask;
 

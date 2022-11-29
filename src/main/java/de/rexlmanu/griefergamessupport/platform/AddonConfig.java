@@ -1,4 +1,4 @@
-package de.rexlmanu.viaversionaddon.platform;
+package de.rexlmanu.griefergamessupport.platform;
 
 import com.viaversion.viaversion.api.protocol.version.BlockedProtocolVersions;
 import com.viaversion.viaversion.configuration.AbstractViaConfig;

@@ -1,17 +1,7 @@
-# ViaVersion Addon
+# GrieferGames Support
 
-ViaVersion implemented as labymod addon for 1.16 with a easily switch between protocol versions.
-
-## Credits
-
-Thanks to the repos
-
-- https://github.com/ViaVersion/ViaVersion
-- https://github.com/ViaVersion/ViaFabric
-- https://github.com/FlorianMichael/ViaForge
-
-I learned really much about the viaversion api and I really like it. 
-I even started to implemented viaversion to my own server software.
+Fork of [ViaVersion Addon](https://github.com/rexlManu/viaversion-addon) that add 1.19.2 support
+only on griefergames servers.
 
 ## License
 

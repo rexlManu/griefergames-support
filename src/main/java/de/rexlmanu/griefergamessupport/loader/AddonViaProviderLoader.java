@@ -1,4 +1,4 @@
-package de.rexlmanu.viaversionaddon.loader;
+package de.rexlmanu.griefergamessupport.loader;
 
 import com.viaversion.viaversion.api.Via;
 import com.viaversion.viaversion.api.connection.UserConnection;
@@ -7,7 +7,7 @@ import com.viaversion.viaversion.api.protocol.version.VersionProvider;
 import com.viaversion.viaversion.bungee.providers.BungeeMovementTransmitter;
 import com.viaversion.viaversion.protocols.base.BaseVersionProvider;
 import com.viaversion.viaversion.protocols.protocol1_9to1_8.providers.MovementTransmitterProvider;
-import de.rexlmanu.viaversionaddon.ViaVersionAddon;
+import de.rexlmanu.griefergamessupport.ViaVersionAddon;
 
 public class AddonViaProviderLoader implements ViaPlatformLoader {
     @Override
