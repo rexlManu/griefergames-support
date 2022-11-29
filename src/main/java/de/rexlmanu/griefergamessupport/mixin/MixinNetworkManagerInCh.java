@@ -24,13 +24,14 @@ public class MixinNetworkManagerInCh {
     if (channel instanceof SocketChannel
         && Minecraft.getInstance().getCurrentServerData() != null) {
       String serverIP = Minecraft.getInstance().getCurrentServerData().serverIP;
-      System.out.println(serverIP);
+      Logger.getLogger(getClass().getSimpleName())
+          .info("Checking if server is a GrieferGames server...");
       if (!ViaVersionAddon.checkWhitelist(serverIP)) {
         ViaVersionAddon.getInstance().setVersion(ViaVersionAddon.SHARED_VERSION);
         return;
       }
       Logger.getLogger(getClass().getSimpleName())
-          .info("Found server " + serverIP + ", enabling viaversion");
+          .info("Found GrieferGames server " + serverIP + ", enabling viaversion");
       UserConnection user = new UserConnectionImpl(channel, true);
       new ProtocolPipelineImpl(user);
 
