@@ -1,6 +1,7 @@
 package de.rexlmanu.griefergamessupport.mixin;
 
 import com.viaversion.viaversion.api.connection.UserConnection;
+import com.viaversion.viaversion.api.protocol.version.ProtocolVersion;
 import com.viaversion.viaversion.connection.UserConnectionImpl;
 import com.viaversion.viaversion.protocol.ProtocolPipelineImpl;
 import de.rexlmanu.griefergamessupport.ViaVersionAddon;
@@ -9,12 +10,13 @@ import de.rexlmanu.griefergamessupport.handler.ViaDecodeHandler;
 import de.rexlmanu.griefergamessupport.handler.ViaEncodeHandler;
 import io.netty.channel.Channel;
 import io.netty.channel.socket.SocketChannel;
-import java.util.logging.Logger;
 import net.minecraft.client.Minecraft;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
+
+import java.util.logging.Logger;
 
 @Mixin(targets = "net/minecraft/network/NetworkManager$1")
 public class MixinNetworkManagerInCh {
@@ -30,6 +32,7 @@ public class MixinNetworkManagerInCh {
         ViaVersionAddon.getInstance().setVersion(ViaVersionAddon.SHARED_VERSION);
         return;
       }
+      ViaVersionAddon.getInstance().setVersion(ProtocolVersion.v1_19_1.getVersion());
       Logger.getLogger(getClass().getSimpleName())
           .info("Found GrieferGames server " + serverIP + ", enabling viaversion");
       UserConnection user = new UserConnectionImpl(channel, true);
